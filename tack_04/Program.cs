@@ -41,7 +41,12 @@ switch (dayweek)
         }
     case 7:
         {
-            Console.WriteLine($"день недели для номера дня {dayweek} воскреченье");
+            Console.WriteLine($"день недели для номера дня {dayweek} воскреcенье");
+            break;
+        }
+    default:
+        {
+            Console.WriteLine($"день недели для номера дня {dayweek} не существует");
             break;
         }
 }        
