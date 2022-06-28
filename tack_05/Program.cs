@@ -13,5 +13,12 @@ if (numberN < 0)
 }
 for (int i = -numberN; i <= numberN; i++)
 {
+    if (i != numberN)
+    {
     Console.Write($"{i}, ");
+    }
+    else 
+    {
+    Console.Write($"{i}");
+    }
 }
