@@ -11,6 +11,7 @@ if (numberN < 0)
 {
     Console.WriteLine($"Не верный ввод число {numberN} отрицательное");
 }
+Console.Write($"Целые числа для числа {numberN} ->");
 for (int i = -numberN; i <= numberN; i++)
 {
     if (i != numberN)
